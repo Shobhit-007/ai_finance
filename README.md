@@ -1,45 +1,6 @@
 # ai_finance
-Financial News Sentiment Analysis using FinBERT
+This project focuses on financial news sentiment analysis using the pretrained FinBERT transformer model from Hugging Face. The model is designed specifically for financial text and classifies news headlines into positive, neutral, or negative sentiments. The notebook demonstrates a complete NLP pipeline, including data preprocessing, text cleaning, exploratory data analysis (EDA), tokenization, model fine-tuning, evaluation, and prediction generation.
 
-This project performs financial news sentiment analysis using the pretrained FinBERT transformer model from Hugging Face. The model classifies financial headlines into:
+The project uses Python along with libraries such as PyTorch, Pandas, Scikit-learn, Matplotlib, and Hugging Face Transformers. It evaluates model performance using metrics like accuracy, precision, recall, F1-score, and confusion matrix visualization. The trained model can also be saved and reused for real-world financial sentiment prediction tasks.
 
-Positive
-Neutral
-Negative
-
-The notebook includes:
-
-Data preprocessing & cleaning
-Exploratory Data Analysis (EDA)
-FinBERT tokenization & fine-tuning
-Model training and evaluation
-Confusion matrix & performance metrics
-Custom sentiment predictions
-Saving the trained model
-Tech Stack
-Python
-Pandas
-Scikit-learn
-PyTorch
-Hugging Face Transformers
-Matplotlib & Seaborn
-Dataset
-
-Dataset file:
-
-all-data.csv
-
-Required columns:
-
-Column	Description
-text	Financial news text
-label	Sentiment label
-Installation
-pip install pandas numpy scikit-learn torch transformers datasets matplotlib seaborn
-Run the Notebook
-jupyter notebook finbert_sentiment.ipynb
-Applications
-Stock market analysis
-Financial news monitoring
-Investment research
-Trading sentiment analysis
+This project can be applied in areas such as stock market analysis, investment research, financial news monitoring, risk analysis, and automated trading systems. It provides a strong foundation for building intelligent finance-related NLP applications using transformer-based deep learning models.
